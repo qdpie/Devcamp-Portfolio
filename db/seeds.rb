@@ -18,7 +18,7 @@
      
      9.times do |portfolio_item|
        Portfolio.create!(
-         title: 'Portfolio title: #{portfolio_item}',
+         title: "Portfolio title: #{portfolio_item}",
          subtitle: "My great service",
          body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
          main_image: "http://placeholder.it/600x400",
